@@ -65,9 +65,9 @@ $ deactivate
 ## Output (Command Line based)
 Note: I crawled the website www.x.ai
 
-<img src="Command Line Based/img/output.png">
+<img src="img/output.png">
 
 ## Output (Web Flask based)
-<img src="Web Based/img/ask.png" width="400px">
-<img src="Web Based/img/reply1.png" width="400px">
-<img src="Web Based/img/reply2.png" width="400px">
+<img src="img/ask.png" width="400px" alt="ask">
+<img src="img/reply1.png" width="400px">
+<img src="img/reply2.png" width="400px">
