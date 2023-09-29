@@ -36,9 +36,9 @@ To run this project on an Ubuntu system, follow these steps:
 
 Further implementation can be done in three ways.
 
-1) [Command Line Based]()
-2) [Flask Web app]()
-3) [Nodejs Web app]()
+1) [Command Line Based](https://github.com/srikotturu/Machine-Learning/tree/main/ChatGPT/Command%20Line%20based)
+2) [Flask Web app](https://github.com/srikotturu/Machine-Learning/tree/main/ChatGPT/Flask%20Web%20app)
+3) [Nodejs Web app](https://github.com/srikotturu/Machine-Learning/tree/main/ChatGPT/Nodejs%20Web%20app)
 
 ## Output (Command Line based)
 Note: I crawled the website www.x.ai
