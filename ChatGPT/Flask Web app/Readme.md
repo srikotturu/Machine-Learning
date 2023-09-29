@@ -1,4 +1,4 @@
-## Implementation (Command Line Based & Web Based)
+## Implementation (Flask Web application)
 
 ### Ubuntu Terminal Setup
 To run this project on an Ubuntu system, follow these steps:

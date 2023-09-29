@@ -1,4 +1,4 @@
-## Implementation (Command Line Based & Web Based)
+## Implementation (Command Line Based)
 
 ### Ubuntu Terminal Setup
 To run this project on an Ubuntu system, follow these steps:
