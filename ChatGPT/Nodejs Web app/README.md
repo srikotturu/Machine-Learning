@@ -42,10 +42,11 @@ sudo apt-get install nodejs -y
 
 ### 2. Initialize Your Project
 
-To set up your project and create/update the `package.json` file:
+To create a package.json file for your project and install the necessary <b>express and ejs</b> packages:
 
 ```bash
-npm init -y
+npm init -y 
+npm install express ejs
 ```
 
 ### 3. Update Package.json Scripts
@@ -57,7 +58,7 @@ Update your `package.json` file to include the following scripts:
     "install": "pip install -r requirements.txt",
     "crawl": "python3 crawl.py",
     "embed": "python3 embed.py"
-}
+},
 ```
 
 These scripts are used to install Python dependencies, crawl a website, and create embeddings.
