@@ -1,4 +1,4 @@
-# Customer Support System using Web page
+# Customer Support System using Web page (Flask and Node.js)
 
 ## Introduction
 This project is a Customer Support System that uses web crawling, text embedding, and the OpenAI API to answer questions about webpages' content. It includes two implementations: `Command Line Based` and `Web Based`.
@@ -17,10 +17,15 @@ The system is designed to perform the following steps:
 ### Command Line Based
 In the command line-based implementation, users interact with the system through the Ubuntu terminal. They can ask questions about the webpages crawled by the system, and the system generates responses based on the embedded text data. This implementation provides a straightforward and text-based interface for users to query web content.
 
-### Web-Based (Flask)
+### Flask Web App
 The web-based implementation utilizes the Flask framework to provide a user-friendly interface for interacting with the system. Users can access the system through a web browser, making it accessible and convenient. This web interface allows users to input questions and receive responses, enhancing the user experience and accessibility of the system.
 
-## Implementation (Command Line Based & Web Based)
+### Nodejs Web App
+Node.js web application is a simple yet effective tool that allows users to ask questions and receive answers in real-time. It leverages the Express.js framework to create a basic web server, and it integrates with a Python script to provide answers to user queries.
+
+It demonstrate thes integration of Node.js and Python, showcasing how different technologies can work together to create a seamless user experience. Users can input their questions through a user-friendly web interface, and the application processes those questions using a Python script on the server side, returning the answers for display.
+
+## Implementation 
 
 ### Ubuntu Terminal Setup
 To run this project on an Ubuntu system, follow these steps:
@@ -29,45 +34,23 @@ To run this project on an Ubuntu system, follow these steps:
 
 * Export the Jupyter notebook to .py and separate it into different parts (`crawl.py`, `embed.py`, `app.py`).
 
-*  Install Python 3.10's virtual environment package, if not installed already
-```bash
-$ sudo apt install python3.10-venv
-```
-* Create a Python virtual environment named 'venv'
-```bash
-$ python3 -m venv venv
-```
-* Activate the virtual environment
-```bash
-$ . venv/bin/activate
-```
-* Install the required Python packages listed in 'requirements.txt'
-```bash
-$ pip install -r requirements.txt
-```
-* To crawl data from webpages, run:
-```bash
-$ python3 crawl.py
-```
-* To embed the crawled data, run:
-```bash
-$ python3 embed.py
-```
-* To run the system, run:
-```bash
-$ python3 app.py
-```
-* To deactivate the virtual environment, run:
-```bash
-$ deactivate
-```
+Further implementation can be done in three ways.
+
+1) [Command Line Based]()
+2) [Flask Web app]()
+3) [Nodejs Web app]()
 
 ## Output (Command Line based)
 Note: I crawled the website www.x.ai
 
 <img src="img/output.png">
 
-## Output (Web Flask based)
+## Output (Flask Web app)
 <img src="img/ask.png" width="400px" alt="ask">
 <img src="img/reply1.png" width="400px">
 <img src="img/reply2.png" width="400px">
+
+
+## Output (Nodejs Web app)
+<img src="img/ask2.png" width="400px" alt="ask">
+<img src="img/reply3.png" width="400px">
