@@ -2,8 +2,11 @@
 import openai
 import os
 from flask import Flask, render_template, request
-# Import products_description from products_data.py
-from products_data_spanish import products_data
+# Import products_data (english) from products_data.py
+from products_data import products_data
+
+# import products_data (spanish) from products_data_spanish.py
+# from products_data_spanish import products data
 
 with open(".env") as env:
     for line in env:

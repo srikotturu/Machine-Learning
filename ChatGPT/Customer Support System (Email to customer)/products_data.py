@@ -1,3 +1,4 @@
+#Products data in english language
 products_data = {
     "TechPro Ultrabook": {
         "name": "TechPro Ultrabook",

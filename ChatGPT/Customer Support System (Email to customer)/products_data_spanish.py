@@ -1,3 +1,5 @@
+#Products data in spanish language
+
 products_data = {
     "TechPro Ultrabook": {
         "nombre": "Ultrabook TechPro",

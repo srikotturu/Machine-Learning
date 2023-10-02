@@ -43,6 +43,10 @@ To run this application, follow these implementation steps:
    ```bash
    python3 app.py
    ```
+   or
+   ```
+   flask run
+   ```
 
 ## Test (Output)
 
