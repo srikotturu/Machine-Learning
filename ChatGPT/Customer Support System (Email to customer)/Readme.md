@@ -103,7 +103,7 @@ To run this application, follow these implementation steps:
 
 Once the application is running, open a web browser and navigate to `http://localhost:5000`. You can then interact with the system as follows:
 
-<img src="img/english comment.png">
+<img src="img/eng comment.png">
 
 - Choose the desired language from the dropdown menu.
 - View the generated customer comment in the "Question" container.

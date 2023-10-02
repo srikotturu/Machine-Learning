@@ -40,7 +40,7 @@ def generate_customer_comment(products_data):
 def generate_email_subject(comment):
     prompt=f"""
     Asuming that you provide customer support for an electronic product company.
-    Based on the customer comment delimited in triple backticks, suggest a short email subject. 
+    Based on the customer comment delimited in triple backticks, suggest a short email subject to respond to customer. 
     Comment= ```{comment}```
     """
     response=get_completion(prompt)
