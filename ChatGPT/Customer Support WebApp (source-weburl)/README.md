@@ -1,4 +1,4 @@
-# Customer Support System (Command Line Based, Flask Web app & Node.js Web app)
+# Customer Support WebApp (Command Line Based, Flask Web app & Node.js Web app). Data source: WebURL
 
 ## Introduction
 This project is a Customer Support System that uses web crawling, text embedding, and the OpenAI API to answer questions about webpages' content. It includes two implementations: `Command Line Based` and `Web Based`.
