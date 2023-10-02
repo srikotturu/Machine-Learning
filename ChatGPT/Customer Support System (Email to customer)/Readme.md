@@ -4,6 +4,8 @@
 
 The Customer Support System is a web application that utilizes the OpenAI GPT-3.5 Turbo model to provide customer support for an electronic product company. This system generates customer comments, email subjects, comment summaries, and email responses based on user interactions. It offers support in multiple languages, including English, Spanish, and Portuguese.
 
+[Customer Support System - Email (Google slides)](https://docs.google.com/presentation/d/1fxq3UeToPQSgbxopr5so1hX6S4e7BXGF56z0U8SLZ2w/edit?usp=sharing)
+
 ## Design
 
 The system is designed as a Flask web application with a straightforward user interface. Users can select the language in which they want to generate email responses and view the generated customer comment and email response. The application follows these key design components:
