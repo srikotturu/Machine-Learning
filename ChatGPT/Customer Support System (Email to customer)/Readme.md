@@ -17,6 +17,7 @@ The system is designed as a Flask web application with a straightforward user in
 - **HTML Template**: The user interface is designed using an HTML template (`index.html`) with a language dropdown menu, question, and answer containers.
 
 We will test the following:
+
 <img src="img/table.png">
 
 ## Implementation
