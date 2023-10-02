@@ -2,11 +2,8 @@
 import openai
 import os
 from flask import Flask, render_template, request
-# Import products_data (english) from products_data.py
+# Import products_description from products_data.py
 from products_data import products_data
-
-# import products_data (spanish) from products_data_spanish.py
-# from products_data_spanish import products data
 
 with open(".env") as env:
     for line in env:
@@ -32,7 +29,8 @@ def get_completion(prompt):
 # Step 1: Generate a Customer's Comment
 def generate_customer_comment(products_data):
     prompt=f"""
-    Write a 100-word only comment about the electronic product company with the products it sell delimited by tripe backticks in its own language. 
+    Assume that you are a customer to an electronic product company.
+    Write a 100-word only comment about the products delimited by tripe backticks in its own language. 
     Products: ```{products_data}```
     """
     response=get_completion(prompt)
@@ -97,7 +95,7 @@ def generate_customer_email(summary, sentiment, email_subject,language):
     - Comment summary enclosed in backticks (`{summary}`)
     - Our response text enclosed in triple quotes (\"\"\"{response_text}\"\"\")
     - Translate the Email subject enclosed in angle brackets ({email_subject}) to language \"{language}\"
-    Construct a complete email using the language \"{language}\". 
+    Write a complete email responding to the customer's comment using the language \"{language}\". 
     """
     response=get_completion(prompt)
     return response
@@ -108,6 +106,7 @@ def generate_customer_email(summary, sentiment, email_subject,language):
 def index():
     answer = ""
     comment = generate_customer_comment(products_data)
+    print("A customer comment has been generated.")
     if request.method == 'POST':
         language = request.form.get('language')  # Fetch language input from the webpage
         print(f"Selected language: {language}")
@@ -117,15 +116,18 @@ def index():
 def process_comment_to_email(comment, language):
     # Step 2: Generate Email Subject
     email_subject = generate_email_subject(comment)
+    print(f"An email subject is generated from the customer's comment.")
     # Step 3: Generate Customer Comment Summary
     summary = summarize_comment(comment)
+    print("A Summary is generated from the customer comment.")
     translated_summary = translate_summary_with_chatgpt(language, summary)
-
+    print("The summary has been translated to requested language.")
     # Step 4: Analyze Customer Comment Sentiment
     comment_sentiment = analyze_sentiment(comment)
-    print(f"Comment sentiment: {comment_sentiment}")
+    print(f"Sentiment of the comment is detected as: {comment_sentiment}")
     # Step 5: Generate Customer Email
     email_content = generate_customer_email(translated_summary, comment_sentiment, email_subject, language)
+    print("A customer email has been generated.")
     return email_content
 
 

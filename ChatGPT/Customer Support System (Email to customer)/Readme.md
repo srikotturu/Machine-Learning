@@ -16,6 +16,57 @@ The system is designed as a Flask web application with a straightforward user in
 
 - **HTML Template**: The user interface is designed using an HTML template (`index.html`) with a language dropdown menu, question, and answer containers.
 
+
+<table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Step</th>
+                <th>Description</th>
+                <th>Input to ChatGPT</th>
+                <th>ChatGPT's Response</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 1</td>
+                <td>Generate Customer's Comment</td>
+                <td>Detailed product descriptions</td>
+                <td>A 100-word comment about the products</td>
+            </tr>
+            <tr>
+                <td> 2</td>
+                <td>Generate Email Subject</td>
+                <td>Customer's comment from Step 1</td>
+                <td>Email subject inferred from the customer's comment</td>
+            </tr>
+            <tr>
+                <td> 3</td>
+                <td>Generate Comment Summary</td>
+                <td>Customer's comment from Step 1, Customer's selected language</td>
+                <td>
+                    <strong>3.1:</strong> Summary in English using Summarization<br>
+                    <strong>3.2:</strong> Translation to the selected language
+                </td>
+            </tr>
+            <tr>
+                <td> 4</td>
+                <td>Analyze Customer Comment Sentiment</td>
+                <td>Customer's comment from Step 1</td>
+                <td>Sentiment analysis (Positive/Negative)</td>
+            </tr>
+            <tr>
+                <td> 5</td>
+                <td>Generate Customer Email</td>
+                <td>
+                    Customer's comment from Step 1<br>
+                    Comment summary from Step 3.2<br>
+                    Sentiment result
+                </td>
+                <td>An email response to the customer</td>
+            </tr>
+        </tbody>
+    </table>
+    
 We will test the following:
 
 <img src="img/table.png">
