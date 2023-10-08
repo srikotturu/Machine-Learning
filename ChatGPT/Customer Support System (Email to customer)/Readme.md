@@ -117,3 +117,9 @@ The application will display the generated email response based on the selected 
 
 <b> Portugese Email generated from English Comment: </b>
 <img src="img/eng to port.png">
+
+## Ngrok Setup 
+
+Ngrok is a tool that allows you to expose a web server running on your local machine to the internet. 
+
+Follow [this document]() to expose your web server to internet. 
