@@ -52,9 +52,11 @@ def main():
 
     response1 = process_user_query(user_message1)
     response2 = process_user_query(user_message2)
-
+    print("User message 1:", user_message1)
     print("Response to user 1:", response1)
+    print("User message 2:", user_message2)
     print("Response to user 2:", response2)
 
 if __name__ == "__main__":
     main()
+    
