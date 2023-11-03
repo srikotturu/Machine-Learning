@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFBU Chatbot</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        #chat-container {
+            width: 500px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #chat-header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #chat-header img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        #chatbox {
+            height: 400px;
+            padding: 10px;
+            overflow-y: scroll;
+            background-color: #f9f9f9;
+        }
+
+        .message {
+            padding: 10px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            max-width: 80%;
+        }
+
+        .bot {
+            background-color: #e7f3fe;
+            align-self: flex-start;
+        }
+
+        .user {
+            background-color: #007bff;
+            color: white;
+            align-self: flex-end;
+        }
+
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .typing {
+            font-style: italic;
+            color: #999;
+            padding: 0 10px;
+        }
+
+        #chat-footer {
+            padding: 10px;
+            background-color: #f1f1f1;
+        }
+
+        #chat-footer input {
+            width: calc(100% - 110px);
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        #chat-footer button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="chat-container">
+        <div id="chat-header">
+            <img src="{{ url_for('static', filename='logo.png') }}">SFBU Chatbot
+        </div>
+        <div id="chatbox" class="chat-container"></div>
+        <div class="typing" id="botStatus"></div>
+        <div id="chat-footer">
+            <input type="text" id="userInput" placeholder="Ask me anything..." onkeypress="handleKeyPress(event)">
+            <button onclick="getBotResponse()">Ask</button>
+        </div>
+    </div>
+
+    <script>
+        function getBotResponse() {
+            var userText = document.getElementById("userInput").value;
+            addUserMessage(userText);
+            document.getElementById("botStatus").innerText = "typing...";
+            fetch("/get?msg=" + encodeURIComponent(userText))
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("botStatus").innerText = "";
+                    addBotMessage(data);
+                });
+        }
+
+        function addUserMessage(text) {
+            var chatbox = document.getElementById("chatbox");
+            var userDiv = document.createElement("div");
+            userDiv.innerText = text;
+            userDiv.className = "message user";
+            chatbox.appendChild(userDiv);
+            document.getElementById("userInput").value = ''; // Clear the input after sending
+            chatbox.scrollTop = chatbox.scrollHeight; // Scroll to the bottom
+        }
+
+        function addBotMessage(text) {
+            var chatbox = document.getElementById("chatbox");
+            var botDiv = document.createElement("div");
+            botDiv.innerText = text;
+            botDiv.className = "message bot";
+            chatbox.appendChild(botDiv);
+            chatbox.scrollTop = chatbox.scrollHeight; // Scroll to the bottom
+        }
+
+        function handleKeyPress(event) {
+            if (event.keyCode === 13 || event.which === 13) { // 13 is the key code for Enter key
+                getBotResponse();
+            }
+        }
+    </script>
+</body>
+
+</html>
