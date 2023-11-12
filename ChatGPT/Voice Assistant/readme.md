@@ -1,4 +1,4 @@
-# Voice Assistant
+# Voice Assistant - Realtime Speech to Text to Speech
 
 ## Introduction
 This Python script serves as a voice assistant powered by OpenAI's GPT-3.5 Turbo model. The assistant listens for a wake word, transcribes the user's query, and generates a response using the ChatGPT API. The code structure includes three main components: recording audio, transcribing the audio, and replying to user requests.
@@ -43,4 +43,4 @@ This Python script serves as a voice assistant powered by OpenAI's GPT-3.5 Turbo
 ## Output
 
 <img src= "img/output.png">
-To hear the assistant's audio response, see the google slides. 
+To hear the assistant's audio response, please see the google slides. 
