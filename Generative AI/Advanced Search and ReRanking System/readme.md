@@ -4,6 +4,8 @@
 
 This project is focused on implementing an advanced search and reranking system. It leverages the capabilities of Cohere and Weaviate to perform dense retrieval and rerank search results, enhancing the relevance and accuracy of information retrieval. This system can be applied in various domains where precise and context-aware search results are essential.
 
+[Google Slides(Advanced Search and ReRanking System)](https://docs.google.com/presentation/d/1kcOtcSopQnT87DU9_J9BsvcwCap_ziaH3IBMfkQ5uG4/edit?usp=sharing)
+
 ## Design
 
 The design of this project is centered around integrating two major components: Cohere and Weaviate. The system utilizes Cohere for its natural language understanding capabilities, particularly in reranking responses to align better with the query's context. Weaviate, on the other hand, is used for its efficient and scalable vector search, enabling dense retrieval of documents.
@@ -58,4 +60,4 @@ To get the system up and running, follow these steps:
 
 ## Output
 
-Please find the output of the AI Article Assistant in this [link(output.txt)]().
+Please find the output of the AI Article Assistant in this [link(output.txt)](https://github.com/srikotturu/Machine-Learning/blob/364c74317c3d28a406424b2547a0cf4f4621b39b/Generative%20AI/Advanced%20Search%20and%20ReRanking%20System/output.txt).
