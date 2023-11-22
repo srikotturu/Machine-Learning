@@ -1,0 +1,115 @@
+Dense Retrieval Results for query, What is the capital of Canada?:
+item 0
+_additional:{'distance': -150.8031}
+
+lang:en
+
+text:The governor general of the province had designated Kingston as the capital in 1841. However, the major population centres of Toronto and Montreal, as well as the former capital of Lower Canada, Quebec City, all had legislators dissatisfied with Kingston. Anglophone merchants in Quebec were the main group supportive of the Kingston arrangement. In 1842, a vote rejected Kingston as the capital, and study of potential candidates included the then-named Bytown, but that option proved less popular than Toronto or Montreal. In 1843, a report of the Executive Council recommended Montreal as the capital as a more fortifiable location and commercial centre, however, the Governor General refused to execute a move without a parliamentary vote. In 1844, the Queen's acceptance of a parliamentary vote moved the capital to Montreal.
+
+title:Ottawa
+
+url:https://en.wikipedia.org/wiki?curid=22219
+
+views:2000
+
+
+item 1
+_additional:{'distance': -150.28354}
+
+lang:en
+
+text:For brief periods, Toronto was twice the capital of the united Province of Canada: first from 1849 to 1852, following unrest in Montreal, and later 1856–1858. After this date, Quebec was designated as the capital until 1866 (one year before Canadian Confederation). Since then, the capital of Canada has remained Ottawa, Ontario.
+
+title:Toronto
+
+url:https://en.wikipedia.org/wiki?curid=64646
+
+views:3000
+
+
+item 2
+_additional:{'distance': -150.02524}
+
+lang:en
+
+text:Selection of Ottawa as the capital of Canada predates the Confederation of Canada. The selection was contentious and not straightforward, with the parliament of the United Province of Canada holding more than 200 votes over several decades to attempt to settle on a legislative solution to the location of the capital.
+
+title:Ottawa
+
+url:https://en.wikipedia.org/wiki?curid=22219
+
+views:2000
+
+
+item 3
+_additional:{'distance': -149.92365}
+
+lang:en
+
+text:Until the late 18th century Québec was the most populous city in present-day Canada. As of the census of 1790, Montreal surpassed it with 18,000 inhabitants, but Quebec (pop. 14,000) remained the administrative capital of New France. It was then made the capital of Lower Canada by the Constitutional Act of 1791. From 1841 to 1867, the capital of the Province of Canada rotated between Kingston, Montreal, Toronto, Ottawa and Quebec City (from 1852 to 1856 and from 1859 to 1866).
+
+title:Quebec City
+
+url:https://en.wikipedia.org/wiki?curid=100727
+
+views:2000
+
+
+item 4
+_additional:{'distance': -149.71033}
+
+lang:en
+
+text:The Quebec Conference on Canadian Confederation was held in the city in 1864. In 1867, Queen Victoria chose Ottawa as the definite capital of the Dominion of Canada, while Quebec City was confirmed as the capital of the newly created province of Quebec.
+
+title:Quebec City
+
+url:https://en.wikipedia.org/wiki?curid=100727
+
+views:2000
+
+
+Result 1 for query 'What is the capital of Canada?':
+RerankResult<document['text']: Selection of Ottawa as the capital of Canada predates the Confederation of Canada. The selection was contentious and not straightforward, with the parliament of the United Province of Canada holding more than 200 votes over several decades to attempt to settle on a legislative solution to the location of the capital., index: 407, relevance_score: 0.9875684>
+
+Result 2 for query 'What is the capital of Canada?':
+RerankResult<document['text']: Montreal was the capital of the Province of Canada from 1844 to 1849, but lost its status when a Tory mob burnt down the Parliament building to protest the passage of the Rebellion Losses Bill. Thereafter, the capital rotated between Quebec City and Toronto until in 1857, Queen Victoria herself established Ottawa as the capital due to strategic reasons. The reasons were twofold. First, because it was located more in the interior of the Province of Canada, it was less susceptible to attack from the United States. Second, and perhaps more importantly, because it lay on the border between French and English Canada, Ottawa was seen as a compromise between Montreal, Toronto, Kingston and Quebec City, which were all vying to become the young nation's official capital. Ottawa retained the status as capital of Canada when the Province of Canada joined with Nova Scotia and New Brunswick to form the Dominion of Canada in 1867., index: 100, relevance_score: 0.9795897>
+
+Result 3 for query 'What is the capital of Canada?':
+RerankResult<document['text']: Ottawa is the political centre of Canada and headquarters to the federal government. The city houses numerous foreign embassies, key buildings, organizations, and institutions of Canada's government, including the Parliament of Canada, the Supreme Court, the residence of Canada's viceroy, and Office of the Prime Minister., index: 202, relevance_score: 0.9753901>
+
+Result 4 for query 'What is the capital of Canada?':
+RerankResult<document['text']: Until the late 18th century Québec was the most populous city in present-day Canada. As of the census of 1790, Montreal surpassed it with 18,000 inhabitants, but Quebec (pop. 14,000) remained the administrative capital of New France. It was then made the capital of Lower Canada by the Constitutional Act of 1791. From 1841 to 1867, the capital of the Province of Canada rotated between Kingston, Montreal, Toronto, Ottawa and Quebec City (from 1852 to 1856 and from 1859 to 1866)., index: 496, relevance_score: 0.9711838>
+
+Result 5 for query 'What is the capital of Canada?':
+RerankResult<document['text']: Ottawa was chosen as the capital for two primary reasons. First, Ottawa's isolated location, surrounded by dense forest far from the Canada–US border and situated on a cliff face, would make it more defensible from attack. Second, Ottawa was approximately midway between Toronto and Kingston (in Canada West) and Montreal and Quebec City (in Canada East) making the selection an important political compromise., index: 479, relevance_score: 0.96653706>
+
+Result 6 for query 'What is the capital of Canada?':
+RerankResult<document['text']: Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, covering over , making it the world's second-largest country by total area. Its southern and western border with the United States, stretching , is the world's longest binational land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver., index: 481, relevance_score: 0.9421884>
+
+Result 7 for query 'What is the capital of Canada?':
+RerankResult<document['text']: Although both rebellions were put down in short order, the British government sent Lord Durham to investigate the causes. He recommended self-government be granted and Lower and Upper Canada be re-joined in an attempt to assimilate the French Canadians. Accordingly, the two colonies were merged into the Province of Canada by the "Act of Union 1840", with the capital at Kingston, and Upper Canada becoming known as Canada West. Parliamentary self-government was granted in 1848. There were heavy waves of immigration in the 1840s, and the population of Canada West more than doubled by 1851 over the previous decade. As a result, for the first time, the English-speaking population of Canada West surpassed the French-speaking population of Canada East, tilting the representative balance of power., index: 68, relevance_score: 0.86567897>
+
+Result 8 for query 'What is the capital of Canada?':
+RerankResult<document['text']: Ottawa is headquarters to numerous major medical organizations and institutions such as Canadian Red Cross, Canadian Blood Services, Health Canada, Canadian Medical Association, Royal College of Physicians and Surgeons of Canada, Canadian Nurses Association, and the Medical Council of Canada., index: 394, relevance_score: 0.86153823>
+
+Result 9 for query 'What is the capital of Canada?':
+RerankResult<document['text']: Ontario ( ; ) is one of the thirteen provinces and territories of Canada. Located in Central Canada, it is Canada's most populous province, with 38.3 percent of the country's population, and is the second-largest province by total area (after Quebec). Ontario is Canada's fourth-largest jurisdiction in total area when the territories of the Northwest Territories and Nunavut are included. It is home to the nation's capital city, Ottawa, and the nation's most populous city, Toronto, which is Ontario's provincial capital., index: 228, relevance_score: 0.4989891>
+
+Result 10 for query 'What is the capital of Canada?':
+RerankResult<document['text']: With sixty percent of Canada's steel produced in Hamilton by Stelco and Dofasco, the city has become known as the Steel Capital of Canada. After nearly declaring bankruptcy, Stelco returned to profitability in 2004. On August 26, 2007 United States Steel Corporation acquired Stelco for C$38.50 in cash per share, owning more than 76 percent of Stelco's outstanding shares. On September 17, 2014, US Steel Canada announced it was applying for bankruptcy protection and it would close its Hamilton operations., index: 5, relevance_score: 0.49455282>
+
+Result 1 for query 'Who is the tallest person in history?':
+RerankResult<document['text']: Robert Pershing Wadlow (February 22, 1918 July 15, 1940), also known as the Alton Giant and the Giant of Illinois, was a man who was the tallest person in recorded history for whom there is irrefutable evidence. He was born and raised in Alton, Illinois, a small city near St. Louis, Missouri., index: 0, relevance_score: 0.9734939>
+
+Result 2 for query 'Who is the tallest person in history?':
+RerankResult<document['text']: Sultan Kösen (born 10 December 1982) is a Turkish farmer who holds the Guinness World Record for tallest living male at . Of Kurdish ethnicity, he is the seventh tallest man in history., index: 2, relevance_score: 0.8664718>
+
+Result 3 for query 'Who is the tallest person in history?':
+RerankResult<document['text']: The Dutch are the tallest people in the world, by nationality, with an average height of for adult males and for adult females in 2009. The average height of young males in the Netherlands increased from 5 feet, 4 inches to approximately 6 feet between the 1850s until the early 2000s. People in the south are on average about shorter than those in the north., index: 4, relevance_score: 0.80162543>
+
+Result 4 for query 'Who is the tallest person in history?':
+RerankResult<document['text']: Kösen turned 40 years old on 10 December 2022. He celebrated his birthday a few days early by visiting the Ripley's Believe It or Not! museum in Orlando, Florida, USA and posing next to a life-sized statue of Robert Wadlow, the tallest man ever at 272 cm (8 ft 11.1 in)., index: 3, relevance_score: 0.6874202>
+
+Result 5 for query 'Who is the tallest person in history?':
+RerankResult<document['text']: Bol came from a family of extraordinarily tall men and women. He said: "My mother was , my father , and my sister is . And my great-grandfather was even taller—." His ethnic group, the Dinka, and the Nilotic people of which they are a part, are among the tallest populations in the world. Bol's hometown, Turalei, is the origin of other exceptionally tall people, including basketball player Ring Ayuel. "I was born in a village, where you cannot measure yourself," Bol reflected. "I learned I was 7 foot 7 in 1979, when I was grown. I was about 18 or 19.", index: 1, relevance_score: 0.6396235>

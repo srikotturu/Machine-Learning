@@ -1,0 +1,10 @@
+default model on embed will be deprecated in the future, please specify a model in the request.
+default model on embed will be deprecated in the future, please specify a model in the request.
+ Answer: Absolutely! Side projects are strongly recommended when trying to build a career in AI. In the article, the author Andrew Ng advocates for developing a side hustle, even if you have a full-time job. He suggests that a fun project can stir creativity, help you develop new skills, and strengthen collaborations with colleagues, and can even potentially lead
+--
+ Answer: Absolutely! Taking on side projects is an excellent way to pursue your interests and passions in AI and build your career in the field. Having a side hustle can allow you to explore innovative ideas and applications of AI that are outside the scope of your primary job. It is an opportunity to develop creative solutions and establish yourself as an expert in a specific
+--
+ Answer: Absolutely! Side projects are highly recommended when trying to build a career in AI. Taking on side projects can help stir creative ideas and strengthen your bonds with collaborators. As you gain more experience through your projects, you can build a portfolio of work that demonstrates your skills and interests in AI. 
+
+Having a side project can present opportunities for you
+--
