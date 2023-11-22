@@ -4,7 +4,7 @@
 
 The AI Article Assistant is a Python-based tool designed to facilitate the process of finding relevant information from a large text corpus and generating concise answers to user queries. This tool leverages advanced natural language processing techniques and is particularly useful for extracting insights from extensive articles or documents.
 
-[Google Slides(AI Article Assitant)]()
+[Google Slides(AI Article Assitant)](https://docs.google.com/presentation/d/1ulzGzJpVcMwmPpDwRFePzMZyWAa39qp5d5-GpluYmMg/edit?usp=sharing)
 
 ## Design
 
@@ -58,4 +58,4 @@ To run the AI Article Assistant, follow these steps:
 
 ## Output
 
-Please find the output of the AI Article Assistant in this [link(output.txt)]().
+Please find the output of the AI Article Assistant in this [link(output.txt)](https://github.com/srikotturu/Machine-Learning/blob/320de55e815b2fa71e36ea3758822760e921b356/Generative%20AI/AI%20Article%20Assistant/output.txt).
