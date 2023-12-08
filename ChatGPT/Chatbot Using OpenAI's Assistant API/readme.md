@@ -75,7 +75,8 @@ The assistant created here can also be tested on the OpenAI web interface.
 <img src="img/web.png">
 
 Note:
-- We can also create and test the assistant using the OpenAI Playground web interface. Here's a [tutorial document]()
+- <b><i> We can also create and test the assistant using the OpenAI Playground web interface. Here's a [tutorial document.](https://github.com/srikotturu/Machine-Learning/blob/8fe369a3f5974b14f6b00da0bcb97ba487f0ac45/ChatGPT/Chatbot%20Using%20OpenAI's%20Assistant%20API/OpenAI_Assistant_API_Web.pdf) </i><b>
+
 - An assistant created in the web interface can be used in our project with the assistant ID, eliminating the need to recreate the assistant and upload the file using Python.
 
 - In the current implementation, it's important to note that the assistant API is in beta mode. As a result, there are occasions(as shown) when the assistant may respond indicating that it does not have access to the uploaded document for answering queries. This is a known issue and is expected to be resolved as the API matures and is further developed by OpenAI.
