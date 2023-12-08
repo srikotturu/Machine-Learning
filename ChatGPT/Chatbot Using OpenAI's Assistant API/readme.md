@@ -8,39 +8,53 @@ This document provides an overview of a customer support chatbot designed to ans
 
 <img src="img/design.png">
 
-The chatbot system is designed using Python and involves integration with OpenAI's API. The process is outlined below in a tabular format:
+The chatbot system is designed using Python and involves integration with OpenAI's API. The process is outlined below in a tabular format and compares it with chat completion API:
 
-<table border=1>
+<table border="1">
   <tr>
     <th>Step</th>
-    <th>Process</th>
-    <th>Description</th>
-  </tr>
-
-  <tr>
-    <td>1</td>
-    <td>API Key Configuration</td>
-    <td>Configure OpenAI API key using environment variables for secure access.</td>
+    <th>Assistant API</th>
+    <th>Chat Completion API</th>
   </tr>
   <tr>
-    <td>2</td>
-    <td>File Upload</td>
-    <td>Implement file upload mechanism to retrieve data from a specified PDF document.</td>
+    <td>1. Initial Setup</td>
+    <td>Obtain API keys, set up authorization.</td>
+    <td>Obtain API keys, set up authorization.</td>
   </tr>
   <tr>
-    <td>3</td>
-    <td>Assistant Creation</td>
-    <td>Create an AI assistant using OpenAI's GPT-3.5 model, set up to utilize the uploaded file as a knowledge base.</td>
+    <td>2. Document Upload</td>
+    <td>Uses Retrieval tool for accessing and processing information from documents.</td>
+    <td>Focused more on chat inputs than on document upload.</td>
   </tr>
   <tr>
-    <td>4</td>
-    <td>Message Handling</td>
-    <td>Develop a function to handle sending user queries and receiving responses from the assistant, with appropriate formatting.</td>
+    <td>3. Define Prompt/Start Conversation</td>
+    <td>Create a text prompt or start a conversation in a new Thread.</td>
+    <td>Initiate with a conversational message.</td>
   </tr>
   <tr>
-    <td>5</td>
-    <td>Response Retrieval</td>
-    <td>Implement a system to retrieve and display responses from the assistant in a conversational format.</td>
+    <td>4. Choose Model</td>
+    <td>Select an appropriate model (e.g., GPT-3, Codex).</td>
+    <td>Uses a model optimized for chat interactions.</td>
+  </tr>
+  <tr>
+    <td>5. API Request/Send Message</td>
+    <td>Send a request to Run the Assistant on a Thread with Messages.</td>
+    <td>Send a message maintaining conversation context.</td>
+  </tr>
+  <tr>
+    <td>6. Processing</td>
+    <td>Assistant uses configuration and Messages in Thread to perform tasks.</td>
+    <td>Generates a reply considering the ongoing conversation.</td>
+  </tr>
+  <tr>
+    <td>7. Receive Response</td>
+    <td>Assistant appends new Messages to the Thread as output.</td>
+    <td>Receive a conversational response relevant to the chat.</td>
+  </tr>
+  <tr>
+    <td>8. Post-Processing/Maintain Context</td>
+    <td>Interpret and integrate responses; review Run Steps for insights.</td>
+    <td>Use the response in the conversational interface, keeping context.</td>
   </tr>
 </table>
 
@@ -75,7 +89,7 @@ The assistant created here can also be tested on the OpenAI web interface.
 <img src="img/web.png">
 
 Note:
-- <b><i> We can also create and test the assistant using the OpenAI Playground web interface. Here's a [tutorial document.](https://github.com/srikotturu/Machine-Learning/blob/8fe369a3f5974b14f6b00da0bcb97ba487f0ac45/ChatGPT/Chatbot%20Using%20OpenAI's%20Assistant%20API/OpenAI_Assistant_API_Web.pdf) </i><b>
+- <b><i> We can also create and test the assistant using the OpenAI Playground web interface. Here's a [tutorial document.](https://github.com/srikotturu/Machine-Learning/blob/8fe369a3f5974b14f6b00da0bcb97ba487f0ac45/ChatGPT/Chatbot%20Using%20OpenAI's%20Assistant%20API/OpenAI_Assistant_API_Web.pdf) </i></b>
 
 - An assistant created in the web interface can be used in our project with the assistant ID, eliminating the need to recreate the assistant and upload the file using Python.
 
